@@ -37,5 +37,5 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-model.fit(train_img, train_df,batch_size=32, epochs=40)
+model.fit(train_img, train_df,batch_size=32, epochs=50)
 model.evaluate(test_img,test_df)
